@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dra. Jaqueline Pannebecker Coutinho | Pediatria</title>
+<meta name="description" content="Pediatria e acompanhamento do desenvolvimento infantil com a Dra. Jaqueline Pannebecker Coutinho, em Tangará da Serra (MT). Coutinho Participações Ltda.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%232f6f62'/%3E%3Cpath d='M10 17c0-3.3 2.7-6 6-6s6 2.7 6 6-2.7 5-6 5-6-1.7-6-5z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbf8f3; --surface:#ffffff; --ink:#1f2a2a; --muted:#5b6866; --line:#e6e0d6;
+  --brand:#2f6f62; --brand-ink:#ffffff; --soft:#e8f1ee; --accent:#d98c6a;
+  --radius:16px; --max:1080px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--brand)}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:600;line-height:1.2;margin:0 0 .5em;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,4.5vw,3.1rem)}
+h2{font-size:clamp(1.6rem,3vw,2.2rem)}
+h3{font-size:1.2rem}
+p{margin:0 0 1em}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+header.top{position:sticky;top:0;z-index:10;background:rgba(251,248,243,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-family:Fraunces,serif;font-weight:600;font-size:1.05rem}
+.logo span.mark{width:34px;height:34px;border-radius:50%;background:var(--brand);display:grid;place-items:center;color:#fff;font-size:.95rem}
+.nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0}
+.nav ul a{text-decoration:none;color:var(--muted);font-weight:500;font-size:.95rem}
+.nav ul a:hover{color:var(--brand)}
+.btn{display:inline-block;background:var(--brand);color:var(--brand-ink);text-decoration:none;font-weight:600;padding:13px 22px;border-radius:999px;font-size:.98rem}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--brand);border:1.5px solid var(--brand)}
+.hero{padding:76px 0 64px}
+.hero .grid{display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center}
+.eyebrow{display:inline-block;background:var(--soft);color:var(--brand);font-weight:600;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;padding:6px 12px;border-radius:999px;margin-bottom:18px}
+.hero p.lead{font-size:1.15rem;color:var(--muted);max-width:34em}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.card-id{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:30px}
+.card-id .badge{width:72px;height:72px;border-radius:50%;background:var(--soft);display:grid;place-items:center;margin-bottom:18px}
+.card-id dl{margin:0;display:grid;gap:12px}
+.card-id dt{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.card-id dd{margin:0;font-weight:500}
+section{padding:72px 0}
+section.alt{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.section-head{max-width:640px;margin-bottom:36px}
+.section-head p{color:var(--muted)}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+section.alt .tile{background:var(--bg)}
+.tile .ic{width:44px;height:44px;border-radius:12px;background:var(--soft);display:grid;place-items:center;margin-bottom:14px}
+.tile p{color:var(--muted);margin:0}
+.about{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
+.about ul{padding-left:1.1em;color:var(--muted)}
+.about li{margin-bottom:.4em}
+.app{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.phone{justify-self:center;width:250px;height:500px;border-radius:40px;background:var(--ink);padding:12px;box-shadow:0 30px 60px -30px rgba(31,42,42,.45)}
+.phone .screen{width:100%;height:100%;border-radius:30px;background:var(--bg);padding:22px 16px;display:flex;flex-direction:column;gap:12px;overflow:hidden}
+.screen .hi{font-family:Fraunces,serif;font-weight:600;font-size:1.05rem}
+.screen .row{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px;font-size:.8rem;color:var(--muted)}
+.screen .row b{display:block;color:var(--ink);font-size:.86rem;margin-bottom:2px}
+.screen .bar{height:8px;border-radius:99px;background:var(--soft);overflow:hidden;margin-top:8px}
+.screen .bar i{display:block;height:100%;width:62%;background:var(--brand)}
+.checks{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:12px}
+.checks li{display:flex;gap:12px;color:var(--muted)}
+.checks li::before{content:"";flex:0 0 22px;height:22px;border-radius:50%;background:var(--soft) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232f6f62' stroke-width='3'%3E%3Cpath d='M6 12l4 4 8-8'/%3E%3C/svg%3E") center/14px no-repeat;margin-top:2px}
+.note{font-size:.88rem;color:var(--muted);border-left:3px solid var(--accent);padding-left:12px;margin-top:22px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.contact .tile h3{margin-bottom:.3em}
+.contact .tile,footer p{min-width:0;overflow-wrap:anywhere}
+footer{background:var(--ink);color:#c9d3d1;padding:48px 0 32px;font-size:.92rem}
+footer .fgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:32px}
+footer h4{color:#fff;font-family:Inter,sans-serif;font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;margin:0 0 12px}
+footer a{color:#e6efed}
+footer .legal{border-top:1px solid rgba(255,255,255,.12);margin-top:36px;padding-top:20px;font-size:.84rem;color:#9fb0ad}
+@media (max-width:860px){
+  .nav ul{display:none}
+  .hero .grid,.about,.app,.contact,footer .fgrid{grid-template-columns:1fr}
+  .cols{grid-template-columns:1fr}
+  .hero{padding:48px 0}
+  section{padding:56px 0}
+  .phone{width:220px;height:440px}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap nav">
+    <a class="logo" href="#inicio"><span class="mark">JC</span>Dra. Jaqueline Pannebecker Coutinho</a>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#app">O app</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero">
+    <div class="wrap grid">
+      <div>
+        <span class="eyebrow">Pediatria · Tangará da Serra (MT)</span>
+        <h1>Cuidado pediátrico próximo, do primeiro dia aos primeiros passos.</h1>
+        <p class="lead">Acompanhamento do crescimento e do desenvolvimento infantil com orientação clara para as famílias, baseada em ciência e na experiência clínica da Dra. Jaqueline Pannebecker Coutinho.</p>
+        <div class="ctas">
+          <a class="btn" href="#contato">Fale conosco</a>
+          <a class="btn ghost" href="#app">Conheça o app</a>
+        </div>
+      </div>
+      <aside class="card-id" aria-label="Identificação profissional">
+        <div class="badge" aria-hidden="true">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#2f6f62" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v6a6 6 0 0 0 12 0V3"/><path d="M12 15v2a4 4 0 0 0 8 0v-1"/><circle cx="20" cy="14" r="2"/></svg>
+        </div>
+        <dl>
+          <div><dt>Médica responsável</dt><dd>Dra. Jaqueline Pannebecker Coutinho</dd></div>
+          <div><dt>Especialidade</dt><dd>Pediatria · CRM 9213 · RQE 4007</dd></div>
+          <div><dt>Empresa</dt><dd>Coutinho Participações Ltda.<br>CNPJ 60.697.094/0001-21</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <section id="sobre" class="alt">
+    <div class="wrap about">
+      <div class="section-head">
+        <span class="eyebrow">Sobre</span>
+        <h2>Quem cuida do seu filho</h2>
+      </div>
+      <div>
+        <p>A Dra. Jaqueline Pannebecker Coutinho é médica pediatra e há mais de uma década acompanha o crescimento de crianças e orienta famílias em cada fase da infância.</p>
+        <p>Seu trabalho une atendimento clínico e educação em saúde: além das consultas, ela produz conteúdo e programas de orientação para pais e mães, como o programa de introdução alimentar, para que as decisões do dia a dia sejam tomadas com segurança e sem culpa.</p>
+        <ul>
+          <li>Orientação baseada em evidências científicas</li>
+          <li>Linguagem acessível para toda a família</li>
+          <li>Atenção ao desenvolvimento físico, emocional e alimentar</li>
+        </ul>
+        <p>As atividades são realizadas pela <strong>Coutinho Participações Ltda.</strong>, empresa da Dra. Jaqueline sediada em Tangará da Serra (MT).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Serviços</span>
+        <h2>Como podemos ajudar</h2>
+        <p>Atendimento e orientação para acompanhar a criança desde o nascimento.</p>
+      </div>
+      <div class="cols">
+        <article class="tile">
+          <div class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2f6f62" stroke-width="2" stroke-linecap="round"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div>
+          <h3>Acompanhamento pediátrico</h3>
+          <p>Consultas de rotina, avaliação do crescimento e dos marcos do desenvolvimento, e orientação sobre vacinas, sono e cuidados diários.</p>
+        </article>
+        <article class="tile">
+          <div class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2f6f62" stroke-width="2" stroke-linecap="round"><path d="M12 3c-4 3-6 6-6 9a6 6 0 0 0 12 0c0-3-2-6-6-9z"/></svg></div>
+          <h3>Introdução alimentar</h3>
+          <p>Orientação para começar no momento certo, escolher os alimentos e conduzir cada etapa com segurança, inclusive sobre o risco de engasgo.</p>
+        </article>
+        <article class="tile">
+          <div class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2f6f62" stroke-width="2" stroke-linecap="round"><path d="M4 5h16v11H8l-4 4z"/></svg></div>
+          <h3>Educação em saúde</h3>
+          <p>Conteúdos e programas online para pais e mães, com informação confiável para as dúvidas mais comuns da infância.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="app" class="alt">
+    <div class="wrap app">
+      <div>
+        <span class="eyebrow">O app</span>
+        <h2>Acompanhamento pediátrico na palma da mão</h2>
+        <p>O aplicativo da Dra. Jaqueline Pannebecker Coutinho reúne em um só lugar as informações e orientações para acompanhar a saúde e o desenvolvimento do seu filho entre uma consulta e outra.</p>
+        <ul class="checks">
+          <li>Registro do crescimento e dos marcos do desenvolvimento</li>
+          <li>Orientações da pediatra organizadas por idade</li>
+          <li>Lembretes de consultas e cuidados importantes</li>
+          <li>Conteúdos sobre alimentação, sono e rotina</li>
+        </ul>
+        <p class="note">O app complementa, mas não substitui, a consulta médica. Em caso de urgência, procure atendimento presencial.</p>
+        <p style="margin-top:18px;color:var(--muted)">Em breve na App Store e no Google Play.</p>
+      </div>
+      <div class="phone" aria-hidden="true">
+        <div class="screen">
+          <div class="hi">Olá, família! 👋</div>
+          <div class="row"><b>Próxima consulta</b>Revisão dos 6 meses</div>
+          <div class="row"><b>Desenvolvimento</b>Marcos do mês alcançados<div class="bar"><i></i></div></div>
+          <div class="row"><b>Dica da pediatra</b>Como começar a introdução alimentar com segurança</div>
+          <div class="row"><b>Crescimento</b>Peso e altura registrados</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Contato</span>
+        <h2>Fale conosco</h2>
+        <p>Para dúvidas sobre os serviços, o programa de introdução alimentar ou o aplicativo.</p>
+      </div>
+      <div class="contact">
+        <div class="tile">
+          <h3>E-mail</h3>
+          <p><a href="mailto:contato@drajaquelinepannebecker.com.br">contato@drajaquelinepannebecker.com.br</a></p>
+        </div>
+        <div class="tile">
+          <h3>Endereço</h3>
+          <p>Rua João do Prado Arantes, 290 – Setor W<br>Centro, Tangará da Serra – MT<br>CEP 78300-076</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <h4>Coutinho Participações Ltda.</h4>
+        <p>CNPJ 60.697.094/0001-21<br>Rua João do Prado Arantes, 290 – Setor W, Centro<br>Tangará da Serra – MT, CEP 78300-076</p>
+      </div>
+      <div>
+        <h4>Responsável técnica</h4>
+        <p>Dra. Jaqueline Pannebecker Coutinho<br>Médica pediatra · CRM 9213 · RQE 4007</p>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <p><a href="politica-de-privacidade.html">Política de privacidade</a><br><a href="mailto:contato@drajaquelinepannebecker.com.br">contato@drajaquelinepannebecker.com.br</a></p>
+      </div>
+    </div>
+    <div class="legal">© <span id="y">2026</span> Coutinho Participações Ltda. Todos os direitos reservados. As informações deste site têm caráter educativo e não substituem a consulta médica.</div>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
